@@ -1,0 +1,21 @@
+<template name="signNav">
+
+	<div class="pd-md" style="position: absolute; bottom: 20px; left: 0; width: 100%;">
+		<div class="mgb-md">
+			<a href="{{pathFor 'signin'}}" class="btn btn-primary btn-block">返回</a>
+		</div>
+
+		<div class="form-group text-center">
+			<div class="col-xs-4">
+				<a href="{{pathFor 'signup'}}">注册</a>
+			</div>
+			<div class="col-xs-4">
+				<a href="{{pathFor 'forgotPassword'}}">忘记密码</a>
+			</div>
+			<div class="col-xs-4">
+				<a href="{{pathFor 'help'}}">帮助</a>
+			</div>
+		</div>
+	</div>
+
+</template>
